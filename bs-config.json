@@ -1,0 +1,5 @@
+{
+    "port": 8000,
+    "files": ["./src/sdk/src/**/*.{html,js,ts}"],
+    "server": { "baseDir": "./build/sdk" }
+}

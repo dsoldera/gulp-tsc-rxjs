@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "baseUrl": ".",
+        "removeComments": true,
+        "module": "commonjs",
+        "target": "es2015",
+        "allowJs": true
+    },
+    "files": [
+        "src/sdk/app.ts"
+    ],
+    "include": [
+        "src/sdk/**/*"
+    ],
+	"exclude": [
+        "node_modules"
+    ]
+}

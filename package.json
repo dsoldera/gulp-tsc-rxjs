@@ -22,10 +22,22 @@
   },
   "homepage": "https://github.com/dsoldera/gulp-tsc-rxjs#readme",
   "devDependencies": {
+    "babelify": "^8.0.0",
+    "browser-sync": "2.18.13",
+    "browserify": "^14.5.0",
     "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-tslint": "^8.1.2",
     "gulp-typescript": "^3.2.3",
+    "lite-server": "^2.3.0",
     "rxjs": "^5.5.6",
-    "tsc": "^1.20150623.0",
-    "typescript": "^2.6.2"
+    "tsc": "1.20150623.0",
+    "tsify": "^3.0.4",
+    "tslint": "^5.0.0",
+    "typescript": "^2.6.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.9.0"
   }
 }
