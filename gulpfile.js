@@ -1,1 +1,1 @@
-const gulp = require('gulp');npm i -g gulp-clinpm i -g gulp-cli
+const gulp = require('gulp');
