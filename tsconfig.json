@@ -6,15 +6,18 @@
         "noImplicitAny": true,
         "baseUrl": ".",
         "removeComments": true,
+        "types": ["reflect-metadata"],
+        "moduleResolution": "node",
+        "lib": ["es6", "dom"],
         "module": "commonjs",
         "target": "es2015",
         "allowJs": true
     },
     "files": [
-        "src/sdk/app.ts"
+        "src/app.ts"
     ],
     "include": [
-        "src/sdk/**/*"
+        "src/**/*"
     ],
 	"exclude": [
         "node_modules"
