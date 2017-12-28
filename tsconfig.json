@@ -13,6 +13,9 @@
         "target": "es2015",
         "allowJs": true
     },
+    "types": [
+        "node"
+    ],
     "files": [
         "src/app.ts"
     ],

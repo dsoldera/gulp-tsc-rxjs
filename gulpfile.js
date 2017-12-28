@@ -32,7 +32,7 @@ function bundle() {
         .pipe(gulp.dest('dist'));
 }
 
-gulp.task("typescript", bundle);
+gulp.task("default", bundle);
 watchedBrowserify.on("update", bundle);
 watchedBrowserify.on("log", gutil.log);
 
@@ -44,8 +44,7 @@ gulp.task('ts-prod', function () {
 });
 
 gulp.task("server", () => {
-    lite.server({ argv: ["", "", "-c", BS_CONFIG_FILE]}, () =>
-    {
+    lite.server({ argv: ["", "", "-c", BS_CONFIG_FILE]}, () => {
         console.log("Lite-server running..")
     });
 });
@@ -68,6 +67,3 @@ gulp.task('tsc', function () {
     .pipe(buffer())
     .pipe(gulp.dest('dist'));
 });
-
-// .pipe(sourcemaps.init({loadMaps: true}))
-// .pipe(sourcemaps.write('./'))

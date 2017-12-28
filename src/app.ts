@@ -1,3 +1,1 @@
-const danielle: String = "Danielle";
-
-console.log(danielle);
+let observable1 = require("./examples/observable1");
